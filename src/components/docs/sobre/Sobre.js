@@ -26,6 +26,11 @@ const Sobre = () => (
                 <p>Utilizaremos Kanban por meio do software Trello, organizando cards e zonas. Com o Kanban conseguiremos organizar nossas entregas, alocar responsáveis para tarefas e revisões e verificar gargálos nas entregas.</p>
             </div>
             <hr/>
+            <div className="topico-container">
+                <h2>Cronograma</h2>
+                <p>Cronograma será inserido.</p>
+            </div>
+            <hr/>
         </div>
     </div>
 );

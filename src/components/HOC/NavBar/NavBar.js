@@ -1,6 +1,6 @@
 import React from 'react'
 import './NavBar.scss'
-import logo from '../../../assets/Medsus-logo.png'
+import logo from '../../../assets/logo_medsus.png'
 
 import { NavLink } from 'react-router-dom'
 
@@ -14,7 +14,7 @@ const NavBar = props => (
         <NavLink to="/Pre-Rastreabilidade">Pré-Rastreabilidade</NavLink>
         <NavLink to="/Elicitacao">Elicitação</NavLink>
         <NavLink to="/Modelagem">Modelagem</NavLink>
-        <NavLink to="/Analise">Análise</NavLink>
+        <NavLink to="/Analise">{'V&V'}</NavLink>
         <NavLink to="/Pos-Rastreabilidade">Pós-Rastreabilidade</NavLink>
       </ul>
     </nav>
