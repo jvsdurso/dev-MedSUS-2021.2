@@ -1,0 +1,61 @@
+.cards-grid-container { margin-top: 5rem; }
+
+.cards-grid {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.card-container {
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	height: 26rem;
+	margin: 3rem 0 3rem 0;
+	border-radius: .4rem;
+	box-shadow: var(--shadow-close);
+	transition: var(--transition-fast);
+	user-select: none;
+	cursor: pointer;
+	
+	&:hover {
+		transform: translateY(-.2rem);
+		box-shadow: var(--shadow-far);
+	}
+
+	.card-img {
+		width: 30rem;
+		//height: 100%; fixes bug: using the setted width only when hovering
+		border-right: .4rem solid var(--color-blue);
+	}
+
+	.card-about {
+		width: 100%;
+		height: 100%;
+		padding-right: 1rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-left: 5rem;
+
+		ul {
+			list-style: none;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			height: 82%;
+
+			li {
+				font-size: 1.5rem;
+			}
+		}
+	}
+
+	p {
+		font-size: 1.6rem;
+		font-weight: bold;
+		color: white;
+		z-index: 100;
+		transition: var(--transition-fast);
+	}
+}

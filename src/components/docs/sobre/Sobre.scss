@@ -1,0 +1,48 @@
+.sobre-page {
+  padding-top: 0.1rem;
+}
+
+.topico-container {
+  margin: 5rem 0rem;
+  text-align: justify;
+
+  h2 {
+    color: var(--color-blue);
+    font-size: 1.8rem;
+    margin: 5rem 0 2.5rem 0;
+
+    &::after {
+        content: "";
+        display: block;
+        width: 2rem;
+        height: .1rem;
+        background-color: var(--color-blue-light);
+    }
+  }
+
+  li {
+    font-weight: bold;
+  }
+
+}
+.topico-container div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.topico-container h2 {
+  margin: 2rem 0 !important;
+}
+
+.topico-container p {
+  width: 35%;
+  display: inline-block;
+  line-height: 1.3;
+  font-size: 1.4rem;
+}
+
+.about-image {
+  max-width: 45%;
+}

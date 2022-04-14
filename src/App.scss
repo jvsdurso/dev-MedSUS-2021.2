@@ -1,0 +1,128 @@
+:root {
+  --color-blue: #0a95f3;
+  --color-blue-light: #00d2eb;
+  --color-blue-dark: #0483d7;
+
+  --shadow: 0 1rem 2rem rgba(0, 0, 0, 0.35);
+  --shadow-close: 0 0.5rem 1rem rgba(0, 0, 0, 0.45);
+  --shadow-far: 0 1.2rem 1.2rem rgba(0, 0, 0, 0.45);
+  --transition-fast: all 0.4s;
+  --transition-slow: all 0.8s;
+
+  --font-size-base-text: 1.3rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: calc(0.71vw + 1px);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2 {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+h1 {
+  color: var(--color-blue);
+  font-size: 2.6rem;
+  margin: 8rem 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &::after {
+    content: "";
+    width: 6rem;
+    border-bottom: 0.18rem solid var(--color-blue-light);
+  }
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p,
+li {
+  font-size: var(--font-size-base-text);
+}
+
+.content {
+  width: 80rem;
+  margin: 0 auto;
+}
+
+.artefact {
+  padding-top: 10rem;
+  h1 {
+    margin: 0;
+  }
+  a {
+    color: var(--color-blue-light);
+    font-weight: bold;
+  }
+}
+
+table {
+  margin: 2.5rem 0;
+  width: 100%;
+  font-family: "Nunito Sans";
+  font-size: 1.1rem;
+  tr:first-child {
+    border: none;
+    th {
+      background-color: var(--color-blue);
+      color: white;
+    }
+  }
+
+  th,
+  td {
+    font-family: "Nunito Sans", sans-serif;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
+    border-radius: 0.3rem;
+    padding: 1.2rem;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-blue);
+}
+.table-fixed {
+  overflow-y: scroll;
+  height: 50rem;
+  width: 100%;
+  table {
+    width: 100%;
+    text-align: center;
+  }
+
+  th {
+    position: sticky;
+    top: 0;
+  }
+}

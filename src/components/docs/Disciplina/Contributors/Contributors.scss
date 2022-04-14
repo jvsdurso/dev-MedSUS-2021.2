@@ -1,0 +1,16 @@
+.contributors {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 7%;
+    
+    &__container {
+      width: 70%;
+      height: 50rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      margin-left: 15%;
+    }
+  }
