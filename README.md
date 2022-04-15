@@ -1,6 +1,6 @@
 # MedSUS
  <p align="center">
-  <img src="docs/assets/logo_medsus.png" alt="MedSus" width="25%"/>
+  <img src="scr/assets/logo_medsus.png" alt="MedSus" width="25%"/>
 </p> 
 
 
