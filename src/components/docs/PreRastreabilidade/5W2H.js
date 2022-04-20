@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactMarkdown from 'react-markdown'
 import Card from '../../UI/Card/Card'
 import HeadArtefact from '../../HOC/HeadArtefact/HeadArtefact'
 import { Link } from 'react-router-dom'
@@ -10,7 +9,7 @@ const i5W2H = () => {
   return (
     <div className='content artefact'>
       <HeadArtefact versions={ null } rastreability={ null }
-                    title="5W2H" author="Rogério Júnior"/>
+                    title="5W2H" author="Thalisson e Gabriel Costa"/>
 
     <Card>
         <h2>Rastreabilidade</h2>
@@ -21,12 +20,17 @@ const i5W2H = () => {
 
     <Card>
         <h2>What</h2>
-        <p>Uma aplicação de gerenciamento de tarefas que auxilie seus usuários a realizar sua organização pessoal de forma eficiente e lúdica com o uso de ferramentas gamificadas.</p>
+        <p>Um aplicativo que reúne informações sobre medicamentos presentes na Relação Nacional de Medicamentos Essencais (Rename) do Sistem Único de Saúde (SUS), onde é possível pesquisar por medicações e ser atualizado sobre mudanças/adições. O aplicativo deve reunir informações confiáveis de medicamentos e essas informações podem ser usadas por médicos gestores do SUS ou pela população.</p>
     </Card>
 
     <Card>
         <h2>Why</h2>
-        <p>Organização gera produtividade e bem estar àqueles que realizam seu gerenciamento, além do uso da gamificação pode ser uma motivação para esse planejamento.</p>
+        <p>O uso racional de medicamentos é um processo que compreende uma prescrição adequada, a dispensação orientada,
+            disponibilidade e custo acessível da medicação e ainda seu uso na dose correta e pelo
+            tempo adequado em intervalos definidos. Sendo assim, a informação sobre os medicamentos se torna um
+            requisito básico para o sucesso terapêutico, assim como para a garantia da utilização de medicamentos eficazes,
+            seguros e de qualidade. Além dos profissionais da área da saúde, os pacientes ou usuários de medicamentos também
+            devem receber informações acerca dos medicamentos, a fim de se obter melhor resolutividade dos problemas de saúde da população.</p>
     </Card>
 
     <Card>
@@ -36,29 +40,29 @@ const i5W2H = () => {
 
     <Card>
         <h2>When</h2>
-        <p>Campanha de arrecadamento inicia em Janeiro de 2013 e a corporação criada pelos fundadores começa em 2014.</p>
+        <p>O aplicativo foi lançado em 2014 e reformulado completamente em 2019.</p>
     </Card>
 
     <Card>
         <h2>Who</h2>
-        <p>Tyler Renelle, Siena Leslie e Vicky Hsu.</p>
+        <p>O MedSuS é um aplicativo disponibilizado pelo Ministério da saúde. Quem deve fazer, portanto, são os times de desenvolvimento compostos pelos próprios servidores públicos do Ministério da Saúde, ou uma empresa de desenvolvimento contratada por meio de licitação, caso não haja capacidade técnica suficiente dentro da equipe própria do Ministério. </p>
     </Card>
 
     <Card>
         <h2>How</h2>
-        <p>Aplicação Web em Javascript, Android Nativo em Kotlin e IOS Nativo em Swift.</p>
+        <p>Aplicação em Android e iOS, com tecnologia Ionic 2</p>
     </Card>
 
     <Card>
         <h2>How Much</h2>
-        <p>Para desenvolvimento inicial do projeto, foram realizadas doações pelo site Kickstarter, que arrecadou um total de US$ 41,191.</p>
+        <p>intermediando</p>
     </Card>
 
     <Card>
         <h2>Referências</h2>
-        <p>Wikipedia contributors. Habitica. Wikipedia, The Free Encyclopedia. Disponível em: https://en.wikipedia.org/wiki/Habitica. Acesso em: 07/04/2019</p>
-        <p>Kickstater of Habitica from January 10, 2013 to February 19, 2013. Disponível em: https://www.kickstarter.com/projects/lefnire/habitrpg-mobile. Acesso em: 07/04/2019</p>
-        <p>Repositório Oficial da Organização do Habitica. Disponível em: https://github.com/HabitRPG</p>
+        <p>ENDEAVOR. 5W2H: o que é e como aplicar: 5W2H: é hora de tirar as dúvidas e colocar a produtividade no seu dia a dia. [S. l.], 8 fev. 2017. Disponível em: https://endeavor.org.br/pessoas/5w2h/. Acesso em: 20 fev. 2022.</p>
+        <p>FIA. 5W2H: o que é, como funciona e por que você deveria usar?. [S. l.], 11 fev. 2020. Disponível em: https://fia.com.br/blog/5w2h/. Acesso em: 20 fev. 2022.</p>
+        <p>RABELO, Flávia Lúcia; ALMEIDA, Fabiana. MedSUS: o aplicativo dos medicamentos. Brasília, 4 abr. 2014. Disponível em: https://referenciabibliografica.net/a/pt-br/ref/abnt. Acesso em: 20 fev. 2022.</p>
     </Card>
 
     </div>

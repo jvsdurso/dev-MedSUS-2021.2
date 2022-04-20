@@ -38,6 +38,7 @@ import Analise01 from './components/docs/Elicitacao/AnaliseProtocolo/Analise01'
 import Analise02V1 from './components/docs/Elicitacao/AnaliseProtocolo/Analise02V1'
 import Analise02 from './components/docs/Elicitacao/AnaliseProtocolo/Analise02'
 import MoSCoW from './components/docs/Elicitacao/MoSCoW'
+import FirstThingsFirst from './components/docs/Elicitacao/FirstThingsFirst'
 
 import CasosDeUso from './components/docs/Modelagem/CasosDeUso/CasosDeUso'
 import Diagramas from './components/docs/Modelagem/CasosDeUso/Diagramas'
@@ -145,6 +146,7 @@ const App = () => {
 
               <RouteRollUp exact path="/Priorizacao" component={Priorizacao} />
               <RouteRollUp exact path="/MoSCoW" component={MoSCoW} />
+              <RouteRollUp exact path="/FirstThingsFirst" component={FirstThingsFirst} />
 
               {/* Modelagem */}
               <RouteRollUp path="/Lexicos" component={Lexico} />

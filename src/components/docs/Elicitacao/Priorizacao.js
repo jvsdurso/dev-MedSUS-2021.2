@@ -1,7 +1,7 @@
 import React from 'react'
-import route from '../../../assets/destination.svg'
 import NCardsLayout from '../../UI/NCardsLayout/NCardsLayout'
 import cow from '../../../assets/cow.svg'
+import ftf from '../../../assets/FTF.svg'
 
 
 const items = [
@@ -10,7 +10,13 @@ const items = [
     img: cow,
     title: 'MoSCoW'
   },
+  {
+    link: '/FirstThingsFirst',
+    img: ftf,
+    title: 'First Things First'
+  },
 ]
+
 
 const Elicitacao = () => (
   <div className="content artefact">

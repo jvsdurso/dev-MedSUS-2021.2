@@ -8,7 +8,7 @@ const HeadArtefact = ({ versions, rastreability, title, author }) => {
     <Card>
       <div className="headArtefact">
         <h1>{ title }</h1>
-        <p>Autor: { author }</p>
+        <p>Autor(es): { author }</p>
       </div>
     </Card>
   )
