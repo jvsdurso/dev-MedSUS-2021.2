@@ -19,12 +19,22 @@ const i5W2H = () => {
     </Card>
 
     <Card>
-        <h2>What</h2>
+        <h2>Introdução</h2>
         <p>Um aplicativo que reúne informações sobre medicamentos presentes na Relação Nacional de Medicamentos Essencais (Rename) do Sistem Único de Saúde (SUS), onde é possível pesquisar por medicações e ser atualizado sobre mudanças/adições. O aplicativo deve reunir informações confiáveis de medicamentos e essas informações podem ser usadas por médicos gestores do SUS ou pela população.</p>
     </Card>
 
     <Card>
-        <h2>Why</h2>
+        <h2>Metodologia</h2>
+        <p></p>
+    </Card>
+
+    <Card>
+        <h3>What</h3>
+        <p>Um aplicativo que reúne informações sobre medicamentos presentes na Relação Nacional de Medicamentos Essencais (Rename) do Sistem Único de Saúde (SUS), onde é possível pesquisar por medicações e ser atualizado sobre mudanças/adições. O aplicativo deve reunir informações confiáveis de medicamentos e essas informações podem ser usadas por médicos gestores do SUS ou pela população.</p>
+    </Card>
+
+    <Card>
+        <h3>Why</h3>
         <p>O uso racional de medicamentos é um processo que compreende uma prescrição adequada, a dispensação orientada,
             disponibilidade e custo acessível da medicação e ainda seu uso na dose correta e pelo
             tempo adequado em intervalos definidos. Sendo assim, a informação sobre os medicamentos se torna um
@@ -34,27 +44,27 @@ const i5W2H = () => {
     </Card>
 
     <Card>
-        <h2>Where</h2>
+        <h3>Where</h3>
         <p>Uma aplicação mobile, pois permite o gerenciamento em tempo real das tarefas, tanto em inserção e acompanhamento das atividades diárias, e uma aplicação Web para permitir melhor integração entre as plataforma de acordo com o que for melhor ao usuário.</p>
     </Card>
 
     <Card>
-        <h2>When</h2>
+        <h3>When</h3>
         <p>O aplicativo foi lançado em 2014 e reformulado completamente em 2019.</p>
     </Card>
 
     <Card>
-        <h2>Who</h2>
+        <h3>Who</h3>
         <p>O MedSuS é um aplicativo disponibilizado pelo Ministério da saúde. Quem deve fazer, portanto, são os times de desenvolvimento compostos pelos próprios servidores públicos do Ministério da Saúde, ou uma empresa de desenvolvimento contratada por meio de licitação, caso não haja capacidade técnica suficiente dentro da equipe própria do Ministério. </p>
     </Card>
 
     <Card>
-        <h2>How</h2>
+        <h3>How</h3>
         <p>Aplicação em Android e iOS, com tecnologia Ionic 2</p>
     </Card>
 
     <Card>
-        <h2>How Much</h2>
+        <h3>How Much</h3>
         <p>intermediando</p>
     </Card>
 
